@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {useState} from 'react';
 
@@ -19,10 +18,10 @@ function App() {
   return (
     <div className="App">
         <h1>Counter App</h1>
-        <button onClick={onAddHandler}>+</button>
-        <p>{count}</p>
-        <button onClick={onSubHandler}>-</button> <br />
-        <button onClick={onResetHandler}>Reset</button>
+        <p>Counter Value is : {count}</p>
+        <button className='addBtn' onClick={onSubHandler}>-</button>
+        <button className='addBtn' onClick={onAddHandler}>+</button>
+        <button className='resetBtn' onClick={onResetHandler}>Reset</button>
       
     </div>
   );

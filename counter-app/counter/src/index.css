@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+.addBtn{
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  border-width: 0px;
+  margin-right: 20px;
+}
+.resetBtn{
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  border-width: 0px;
+  margin-top: 8px;
+}
